@@ -1,0 +1,19 @@
+{
+  "name": "type-sharing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --emitDeclarationOnly",
+    "dev": "pnpm build --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.19.2",
+    "quicktype-core": "^23.0.75",
+    "typescript": "^5.2.2"
+  }
+}
